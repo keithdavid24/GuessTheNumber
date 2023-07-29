@@ -1,0 +1,25 @@
+body {
+    padding: 3em;
+    background-color: darkgrey;
+    text-align: center;
+}
+
+h1 {
+    color: crimson;
+}
+
+h3 {
+    color: lightgray;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+#lower-higher-btns button {
+    margin: .5rem 1rem;
+}
+
+
