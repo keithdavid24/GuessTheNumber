@@ -14,7 +14,7 @@ function randomNumber(userGuess, computersNumber) {
     // Conditional statment in If/else format
     if (userGuess < smallValue || userGuess > largeValue) {
 
-        return "Guess needs to be between 1-100";
+        return "Please input a number between 1 and 100";  //
     }
 
     if (userGuess == computersNumber) {
