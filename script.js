@@ -65,17 +65,18 @@ let createGuess = () => {
 // Side note: didn't realize this needed to be in a switch statment
 // got confused and created switch statement for reply section
 function onLowerButtonClick() {
-    highest = currentNumber - 1;
-    currentNumber = createGuess();
+    highest = currentNumber - 1;           //Narrows the search to the lower half
+    currentNumber = createGuess();         //Generate a new guess based on the updated range
     return `Your number is lower? is it the ${currentNumber}`;
 }
 function onHigherButtonClick() {
-    lowest = currentNumber + 1;
-    currentNumber = createGuess();
+    lowest = currentNumber + 1;            //Narrows the search to the upper half
+    currentNumber = createGuess();         //Generate a new guess based on the updated range
     return `Your number is higher? Is it ${currentNumber}?`;
 }
 
 function ohThatsItButtonClick() {
+    //   When the user confirms that the number is correct
     return `I knew it was ${currentNumber}`;
 }
 
