@@ -6,9 +6,12 @@
 function randomNumber(userGuess, computersNumber) {
 
     // YOUR CODE BELOW
+
+    //The number must be between 1 - 100
     let smallValue = 1;
     let largeValue = 100;
 
+    // Conditional statment in If/else format
     if (userGuess < smallValue || userGuess > largeValue) {
 
         return "Guess needs to be between 1-100";
@@ -58,7 +61,7 @@ let createGuess = () => {
     currentNumber = Math.floor((Math.random() * 100) + 1);
     return currentNumber;
 }
-
+//  Created a fucntion for Lower, Higher and "That's it"
 function onLowerButtonClick() {
     highest = currentNumber - 1;
     currentNumber = createGuess();
