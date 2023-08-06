@@ -87,6 +87,7 @@ function compGuess(reply) {
 
     This should return a string indicating the computers response.
     */
+    // Wrote a switch statement that will pass "lower","higher", or "correct"
 
     switch (reply) {
         case "lower":
