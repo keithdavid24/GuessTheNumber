@@ -62,6 +62,8 @@ let createGuess = () => {
     return currentNumber;
 }
 //  Created a fucntion for Lower, Higher and "That's it"
+// Side note: didn't realize this needed to be in a switch statment
+// got confused and created switch statement for reply section
 function onLowerButtonClick() {
     highest = currentNumber - 1;
     currentNumber = createGuess();
