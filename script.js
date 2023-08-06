@@ -108,7 +108,11 @@ function compGuess(reply) {
 // Test the startCompGuess function after reassigning currentNumber.
 console.log(startCompGuess());
 
-// console.log(compGuess('lower'));
-// console.log(compGuess('higher'));
-// console.log(compGuess('correct'));
+// This code was used to figure out to help with Binary search where it starts from 50 but could not get it to work
+// any comment of why it was not working would be appreciate it. (Open for further clarification)
+/*
+console.log(compGuess('lower'));
+console.log(compGuess('higher'));
+console.log(compGuess('correct'));
+*/
 
