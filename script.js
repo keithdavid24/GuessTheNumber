@@ -58,7 +58,7 @@ function startCompGuess(num) {
 }
 // Block Arrow Function
 let createGuess = () => {
-    currentNumber = Math.floor((Math.random() * 100) + 1);
+    currentNumber = Math.floor((Math.random() * 100) + 1); //Used the Math Object
     return currentNumber;
 }
 //  Created a fucntion for Lower, Higher and "That's it"
@@ -78,6 +78,7 @@ function onHigherButtonClick() {
 function ohThatsItButtonClick() {
     return `I knew it was ${currentNumber}`;
 }
+
 
 function compGuess(reply) {
     /*
